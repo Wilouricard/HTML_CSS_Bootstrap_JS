@@ -1,0 +1,133 @@
+body {
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 0px;
+  border: none;
+}
+h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+nav {
+  background: white;
+  border: white;
+  padding: 5px;
+  letter-spacing: 0px;
+}
+
+nav a {
+  padding: 20px;
+  text-decoration: none;
+  color: chocolate;
+  font-weight: bold;
+}
+
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+
+main {
+  margin: 10px;
+}
+
+img {
+  border-radius: 5%;
+  max-width: 50%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 20px;
+}
+th {
+  background-color: #333;
+  color: white;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+form {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+label,
+input,
+select,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+input,
+textarea,
+select {
+  border: none;
+  background-color: blanchedalmond;
+  padding: 10px;
+  box-shadow: 2px 2px 2px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="radio"],
+[type="checkbox"] {
+  display: inline-block;
+  margin-right: 10px;
+  width: auto;
+  box-shadow: 0 0 0;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  margin-top: 10px;
+  background: #333;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  border-radius: 5%;
+  border: none;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  padding: 1px;
+  margin-top: auto;
+}
+
+footer h3 {
+  color: aliceblue;
+  text-align: center;
+}
+
+footer p {
+  color: aliceblue;
+  text-align: center;
+}

@@ -1,0 +1,87 @@
+body,
+html {
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr 10fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Box-01 Box-01 Box-01 Box-01 Box-01 Box-01 Box-01"
+    "Box-02 Box-04 Box-05 Box-06 Box-07 Box-08 Box-03"
+    "Box-02 Box-09 Box-09 Box-09 Box-09 Box-09 Box-03";
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  min-height: 50px;
+}
+
+#circle {
+  background: white;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  opacity: 80%;
+}
+
+.Box-01 {
+  grid-area: Box-01;
+  background-color: red;
+}
+
+.Box-02 {
+  grid-area: Box-02;
+  background-color: blue;
+}
+
+.Box-03 {
+  grid-area: Box-03;
+  background-color: blue;
+}
+
+.Box-04 {
+  grid-area: Box-04;
+  background-color: green;
+}
+
+.Box-05 {
+  grid-area: Box-05;
+  background-color: green;
+}
+
+.Box-06 {
+  grid-area: Box-06;
+  background-color: green;
+}
+
+.Box-07 {
+  grid-area: Box-07;
+  background-color: green;
+}
+
+.Box-08 {
+  grid-area: Box-08;
+  background-color: green;
+}
+
+.Box-09 {
+  grid-area: Box-09;
+  background-color: yellow;
+}
+
+.green {
+  min-height: 1000px;
+}

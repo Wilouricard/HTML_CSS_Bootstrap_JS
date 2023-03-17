@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Oignon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Restaurant L'Oignon</h1>
+        <nav>
+            <a href="index.html">Acceuil</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Nous contacter</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Réservation</h2>
+        <form action="contact.html" method="post">
+            <div>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="email">Téléphone:</label>
+                <input type="tel" id="tel" name="tel" required>
+            </div>
+            <div>
+                <label for="date_naissance">Date de naissance:</label>
+                <input type="date" id="date_naissance" name="date_naissance" required>
+            </div>
+            <div>
+                <label>Sexe:</label>
+                <label for="homme">
+                    <input type="radio" id="homme" name="sexe" value="homme" required> Homme
+                </label>
+                <label for="femme">
+                    <input type="radio" id="femme" name="sexe" value="femme" required> Femme
+                </label>
+            </div>
+            <div>
+                <label>Régime alimentaire:</label>
+                <label for="vegetarien">
+                    <input type="checkbox" id="vegetarien" name="vegetarien"> Végétarien(ne)
+                </label>
+            </div>
+            <div>
+                <label for="selecteur">Nombre de couverts:</label>
+                <select id="selecteur" name="selecteur">
+                    <option value="option1">1 à 2 personnes</option>
+                    <option value="option2">3 à 4 personnes</option>
+                    <option value="option3">5 à 6 personnes</option>
+                    <option value="option3">7 à 8 personnes</option>
+                    <option value="option3">9 à 10 personnes</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h3>Retrouvez nous sur :</h3>
+        <p><a>Facebook</a></p>
+        <p><a>
+                Instagram
+            </a></p>
+        <p><a>Twitter</a></p>
+    </footer>
+</body>
+
+</html>
