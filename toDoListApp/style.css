@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h2{
+    font-size: medium;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    margin-right: 10px;
+    padding: 15px;
+    border: none;
+    background-color: bisque;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+
+  #div_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    padding: 20px 100px 20px 100px;
+  }
+  
+  li {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+  }
+  
+  li span {
+    cursor: pointer;
+  }
+  
+  
+
+  .delete {
+    background-color: red; 
+    color: white; 
+    font-size: 10px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 2px 7px 2px 7px;
+    
+  }
+
+  .delete:hover {
+    background-color: darkred;
+  }
+  
